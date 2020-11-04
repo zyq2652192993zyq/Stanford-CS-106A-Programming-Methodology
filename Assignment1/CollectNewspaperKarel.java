@@ -11,14 +11,36 @@
 import stanford.karel.*;
 
 public class CollectNewspaperKarel extends SuperKarel {
+	public void Move(int stepNum){
+		try {
+			for (int i = 0; i < stepNum; ++i) {
+				move();
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}	
+	}
 
-	// You fill in this part
+	
 	public void run() {
-		move();
-		turnRight();
-		move();
-		turnLeft();
-		move();
-		pickBeeper();
+		try {
+			turnRight();
+			Move(1);
+			turnLeft();
+			Move(3);
+			
+			pickBeeper();
+			
+			// back to its initial position
+			turnAround();
+			Move(3);	
+			turnRight();
+			Move(1);
+			turnRight();
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+		}	
 	}
 }

@@ -10,7 +10,30 @@
 import stanford.karel.*;
 
 public class CheckerboardKarel extends SuperKarel {
-
-	// You fill in this part
-
+	public void run() {
+		boolean flag = true;
+		while (true) {
+			if (flag) {
+				putBeeper();
+				flag = false;
+			}
+			else flag = true;
+			
+			if (frontIsClear()) move();
+			else {
+				if ((facingWest() && rightIsBlocked()) || (facingEast() && leftIsBlocked())) break;
+				
+				if (facingEast()) {
+					turnLeft();
+					move();
+					turnLeft();
+				}
+				else {
+					turnRight();
+					move();
+					turnRight();
+				}
+			}
+		}
+	}
 }
