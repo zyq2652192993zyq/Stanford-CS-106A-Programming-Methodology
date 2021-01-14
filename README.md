@@ -9,15 +9,27 @@
 
 ## Assignments
 
-| Assignment   | Code | Notes |
-| ------------ | ---- | ----- |
-| Karel        |      |       |
-| Simple Java  |      |       |
-| Breakout!    |      |       |
-| Hangman      |      |       |
-| Yahtzee!     |      |       |
-| NameSurfer   |      |       |
-| FacePamphlet |      |       |
-| Assignment-8 |      |       |
-| Assignment-9 |      |       |
+| Programming Assignment | Code | Notes |
+| ---------------------- | ---- | ----- |
+| Karel                  |      |       |
+| Simple Java            |      |       |
+| Breakout!              |      |       |
+| Hangman                |      |       |
+| Yahtzee!               |      |       |
+| NameSurfer             |      |       |
+| FacePamphlet           |      |       |
+
+
+
+| Section Assignments           | Notes |
+| ----------------------------- | ----- |
+| Assignment 1: Karel the Robot |       |
+|                               |       |
+|                               |       |
+|                               |       |
+|                               |       |
+|                               |       |
+|                               |       |
+|                               |       |
+|                               |       |
 
