@@ -58,7 +58,7 @@ public class Pyramid extends GraphicsProgram {
 
 ## Target
 
-需求：画三个圆，需要按照一定的顺序来画，因为如果最后画大圆的化，会把前面的小圆覆盖，三个圆的尺寸有限制，图案需要处于画布的中心。
+需求：画三个圆，需要按照一定的顺序来画，因为如果最后画大圆的话，会把前面的小圆覆盖，三个圆的尺寸有限制，图案需要处于画布的中心。
 
 需要参考[GOval](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/#acm/graphics/GOval.html)，[Color](https://docs.oracle.com/javase/6/docs/api/java/awt/Color.html)
 

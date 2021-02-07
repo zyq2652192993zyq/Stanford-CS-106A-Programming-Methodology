@@ -8,7 +8,7 @@
 
 import acm.graphics.*;
 import acm.program.*;
-import java.awt.*;
+//import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	private static final double RECTANGLE_WIDTH = 130.0;
