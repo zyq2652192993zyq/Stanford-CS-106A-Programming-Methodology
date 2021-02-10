@@ -19,7 +19,7 @@
 
 在lecture`06-karel-in-eclipse`里展示了第一个assignment如何运行。首先打开`CollectNewspaperKarel.java`文件，增加程序文件里标红的两个位置，然后点击最上方的两个按钮中右边的即可。
 
-![image-20201103163934478](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Assignment-1-Note.assets\image-20201103163934478.png)
+![image-20201103163934478.png](https://i.loli.net/2021/02/10/fNkqMC4wOSLAHuj.png)
 
 
 
@@ -51,11 +51,11 @@ public class CollectNewspaperKarel extends SuperKarel {
 
 程序运行后效果：
 
-![image-20201103164151963](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Assignment-1-Note.assets\image-20201103164151963.png)
+![image-20201103164151963.png](https://i.loli.net/2021/02/10/pz75do4MTfARXs3.png)
 
 点击`Start Program`后左上角的小人开始移动，因为程序少了一个`move`导致还差一个位置才能达到，所以出现`logic error`。
 
-![image-20201103164331579](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Assignment-1-Note.assets\image-20201103164331579.png)
+![image-20201103164331579.png](https://i.loli.net/2021/02/10/C3acZwdFKBVlP7O.png)
 
 
 
