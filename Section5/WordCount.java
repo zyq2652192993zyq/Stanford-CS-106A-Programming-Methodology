@@ -28,6 +28,7 @@ public class WordCount extends ConsoleProgram {
 				}
 				if (isWord) ++words;
 			}
+			in.close();
 			
 			println("Lines = " + lines);
 			println("Words = " + words);

@@ -44,6 +44,7 @@ public class WordCount extends ConsoleProgram {
 				}
 				if (isWord) ++words;
 			}
+            in.close();
 			
 			println("Lines = " + lines);
 			println("Words = " + words);
@@ -80,6 +81,7 @@ public class Histograms extends ConsoleProgram {
 					++arr[pos];
 				}
 			}
+            in.close();
 			
 			for (int i = 0; i < 11; ++i) {
 				if (i == 10) {

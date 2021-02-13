@@ -6,9 +6,9 @@
  */
 
 import acm.util.*;
+import acm.program.*;
 
 public class HangmanLexicon {
-
 /** Returns the number of words in the lexicon. */
 	public int getWordCount() {
 		return 10;

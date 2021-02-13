@@ -16,6 +16,7 @@ public class Histograms extends ConsoleProgram {
 					++arr[pos];
 				}
 			}
+			in.close();
 			
 			for (int i = 0; i < 11; ++i) {
 				if (i == 10) {
