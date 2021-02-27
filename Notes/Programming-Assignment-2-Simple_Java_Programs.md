@@ -54,7 +54,7 @@ public class Pyramid extends GraphicsProgram {
 
 效果图：
 
-![image-20201219194913120](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Programming-Assignment-2-Simple_Java_Programs.assets\image-20201219194913120.png)
+![image-20201219194913120.png](https://i.loli.net/2021/02/27/2uzlKBvLwPS4xV9.png)
 
 ## Target
 
@@ -64,7 +64,7 @@ public class Pyramid extends GraphicsProgram {
 
 对于每个圆，实际上仍然是通过矩形的左上角点来确定位置，另外每个圆填充的时候有轮廓线和内部区域两个部分，如果不改变轮廓线的颜色，会出现黑色的轮廓线，如下图所示：
 
-![image-20201220103248855](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Programming-Assignment-2-Simple_Java_Programs.assets\image-20201220103248855.png)
+![image-20201220103248855.png](https://i.loli.net/2021/02/27/vUpnyK5P9truHIg.png)
 
 所以需要通过`setColor`来进行调整。
 
@@ -115,7 +115,7 @@ public class Target extends GraphicsProgram {
 
 调整完后效果图：
 
-![image-20201220103401388](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Programming-Assignment-2-Simple_Java_Programs.assets\image-20201220103401388.png)
+![image-20201220103401388.png](https://i.loli.net/2021/02/27/joBVhMRHldwiZcm.png)
 
 ## ProgramHierarchy
 
@@ -199,7 +199,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 
 效果图：
 
-![image-20201220155354457](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Programming-Assignment-2-Simple_Java_Programs.assets\image-20201220155354457.png)
+![image-20201220155354457.png](https://i.loli.net/2021/02/27/GWOX9JtYfhL3oIS.png)
 
 ## PythagoreanTheorem
 
@@ -230,7 +230,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 
 结果：
 
-![image-20201220160507478](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Programming-Assignment-2-Simple_Java_Programs.assets\image-20201220160507478.png)
+![image-20201220160507478.png](https://i.loli.net/2021/02/27/fkPc5AnuHJhmFIS.png)
 
 ## FindRange
 
@@ -284,7 +284,7 @@ public class FindRange extends ConsoleProgram {
 
 结果：
 
-![image-20201220161742480](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Programming-Assignment-2-Simple_Java_Programs.assets\image-20201220161742480.png)
+![image-20201220161742480.png](https://i.loli.net/2021/02/27/vAOYpb1MoskTfy8.png)
 
 
 
@@ -350,7 +350,7 @@ public class Hailstone extends ConsoleProgram {
 
 结果：
 
-![image-20201220163142274](F:\Project\Stanford-CS-106A-Programming-Methodology\Notes\Programming-Assignment-2-Simple_Java_Programs.assets\image-20201220163142274.png)
+![image-20201220163142274.png](https://i.loli.net/2021/02/27/aDNypmb12SnqZu4.png)
 
 
 
